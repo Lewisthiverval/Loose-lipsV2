@@ -1,4 +1,5 @@
 <script lang="js" context="module">
+  import Layout from "./Layout.svelte";
   // export async function load({ fetch }) {
   //   return {
   //     props: {
@@ -30,15 +31,15 @@
 </script>
 
 <div class="w-[100%] mt-28">
-  <h1>HELLO WORLD</h1>
+  <Layout />
   <!-- <TagsContainer {tags} />
   <FeaturedContent {posts} />
   <RecentPostsContainer {posts} /> -->
   <!-- <HomeEventsContainer {events} /> -->
 </div>
 
-<!-- <style>
+<style>
   :global(body) {
     overflow-x: hidden;
   }
-</style> -->
+</style>

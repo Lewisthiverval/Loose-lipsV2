@@ -38,12 +38,11 @@
     title={"LOOSE LIPS"}
     useTitleAndLogo={true}
   />
-
   <main id="skip" class="flex flex-col justify-center px-8 dark:bg-black pt-4">
     <RouteTransition referesh={path}>
-      <!-- <slot /> -->
+      <slot />
     </RouteTransition>
-    <Footer />
+    <!-- <Footer /> -->
   </main>
   <!-- <Player /> -->
 </div>

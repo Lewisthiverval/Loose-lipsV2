@@ -1,9 +1,7 @@
 import { recommendedArray } from "../../stores";
-import type { IBlog } from "$models/interfaces/iblog.interface";
-import type { IEventsCard } from "$models/interfaces/ievents-card.interface";
 
-export const addToStore = (post: IBlog | IEventsCard) => {
-  post.tags.forEach((tag: string) => {
+export const addToStore = (post) => {
+  post.tags.forEach((tag) => {
     recommendedArray.update((prevArray) => {
       return prevArray.includes(tag) ? prevArray : [...prevArray, tag];
     });

@@ -1,7 +1,6 @@
 <script lang="js">
   // Start: Local Imports
 
-  import NavigationProgressBar from "../navigation-progress-bar/NavigationProgressBar.svelte";
   import NavigationBar from "../navigation-bar/NavigationBar.svelte";
   export let logoImage;
   export let title = "LOOSE LIPS";
@@ -35,10 +34,12 @@
   ];
 </script>
 
-<NavigationBar
-  {navLinks}
-  {logoImage}
-  {title}
-  {useTitleAndLogo}
-  on:toggleTheme
-/>
+<div>
+  <NavigationBar
+    {navLinks}
+    {logoImage}
+    {title}
+    {useTitleAndLogo}
+    on:toggleTheme
+  />
+</div>

@@ -1,14 +1,11 @@
 <script lang="ts">
   import { createEventDispatcher } from "svelte";
   // import { page } from "$app/stores";
-  // class:nav-active-route={$page.path === navLink.path ||
-  //$page.path === `${navLink.path}/`}
-  //class:nav-inactive-route={$page.path !== navLink.path &&
-  //$page.path !== `${navLink.path}/`}
+
   export let navLinks;
   export let logoImage!: string;
   export let title = "";
-  export let useTitleAndLogo = false;
+  export let useTitleAndLogo = true;
 
   const dispatch = createEventDispatcher();
 </script>
