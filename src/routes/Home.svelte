@@ -31,7 +31,8 @@
 </script>
 
 <div class="w-[100%] mt-28">
-  <Layout />
+  <Layout>Loose lips 2.0</Layout>
+
   <!-- <TagsContainer {tags} />
   <FeaturedContent {posts} />
   <RecentPostsContainer {posts} /> -->

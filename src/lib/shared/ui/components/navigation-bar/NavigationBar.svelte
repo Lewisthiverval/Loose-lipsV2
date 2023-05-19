@@ -4,7 +4,7 @@
 
   export let navLinks;
   export let logoImage!: string;
-  export let title = "";
+  export let title = "Loose lips";
   export let useTitleAndLogo = true;
 
   const dispatch = createEventDispatcher();
@@ -25,7 +25,7 @@
         <a
           data-sveltekit:prefetch
           href="/"
-          class="flex flex-row h-12 justify-center items-center drop-shadow-xl"
+          class="flex flex-row h-12 justify-center items-center text-black drop-shadow-xl"
           aria-label={title}
         >
           <img
