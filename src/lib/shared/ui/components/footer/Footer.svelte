@@ -8,7 +8,6 @@
 <footer
   class="flex flex-col justify-center items-start max-w-2xl mx-auto w-full mb-8"
 >
-  <h1>TEST</h1>
   <hr class="w-full border-1 border-gray-200 dark:border-gray-800 mb-8" />
   <slot />
   <div class="w-full max-w-2xl grid grid-cols-1 gap-4 pb-16 sm:grid-cols-3">

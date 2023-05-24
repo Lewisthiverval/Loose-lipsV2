@@ -38,7 +38,7 @@
     title={"LOOSE LIPS"}
     useTitleAndLogo={true}
   />
-  <h1>TEST</h1>
+
   <main id="skip" class="flex flex-col justify-center px-8 dark:bg-black pt-4">
     <RouteTransition referesh={path}>
       <slot />
